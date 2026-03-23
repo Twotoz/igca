@@ -1,0 +1,11 @@
+{
+  "name": "igca-x",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json --noEmit",
+    "test": "node --experimental-transform-types --test tests/**/*.test.ts",
+    "demo": "node --experimental-transform-types src/cli/repl.ts"
+  }
+}
